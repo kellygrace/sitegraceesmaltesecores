@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grace esmaltes e cores!</title>
+
+    <link rel="stylesheet" href="_css/estilo.css">
+
+  </head>
+  <body background = "_imagens/fundo.jpg">
+
+
+
+    <div id="interface">
+      <h1><center>Grace esmaltes e cores!</center></h1>
+        <nav id="menu" >
+          <h2>Menu Principal</h2>
+              <ul>
+
+                    <li><a href="index.html">Página inicial</a></li>
+                    <li><a href="dicasdebeleza.html">Dicas de Beleza</b></a></li>
+                    <li><a href=" maisnovidades.html"> Mais Novidades</a></li>
+                    <li><a href="formulario.html">Fale conosco</a></li>
+              </ul>
+        </nav>
+>
+
+  <body>
+    <h1>Fale Conosco!</h1>
+
+    <fieldset>
+      <legend>Dados do Usuário</legend>
+      <p>Nome
+        <input type="text"
+        name="tNome"
+        id="cNome"
+        size="20"
+        maxlength="30"
+        placeholder="Nome Completo">
+
+      </p>
+      <p>Senha
+        <input type="password"
+        name="tSenha"
+        id="cSenha"
+        size="10"
+        maxlength="10"
+        placeholder="10 digitos">
+        </p>
+
+
+        <fieldset>
+      <legend>Sexo</legend>
+        <p>
+          <input type="radio"
+          name="tSexo"
+          id="cMasc">
+          <label for="cMasc">Masculino</label>
+        </p>
+        <p>
+          <input type="radio"
+          name="tSexo"
+          id="cFem">
+          <label for="cFem">Feminino</label>
+          </p>
+      </fieldset>
+
+      <fieldset>
+<legend>Endereço</legend>
+
+<p>
+  logradouro
+  <input type="text"
+  name="tLogradouro"
+  id="cLogradouro"
+  size="30"
+  maxlength="50"
+  placeholder="Rua, Av, Travessa,....">
+
+</p>
+<p>
+  Número
+  <input type="number"
+  name="tNum"
+  id="cNum"
+  size="5"
+  min="1"
+  max="99999">
+
+</p>
+<p>
+  Estado
+
+
+  <select  name="tEstado"id="cEstado">
+  <option selected>...</option>
+    <optgroup label="Sudeste">
+
+  <option value="MG">Minas Gerais</option>
+  <option value="SP">São Paulo</option>
+  <option value="RJ">Rio de Janeiro</option>
+      </optgroup>
+
+<optgroup label="Sul">
+  <option value="RS">Rio Grande do Sul</option>
+  <option value="SC">Santa Catarina</option>
+<option value="PR">Parana</option>
+</optgroup>
+  </select>
+</p>
+<p>
+  Cidade
+  <input type="text"
+  name="tCidade"
+  id="cCidade"
+  size="20"
+  maxlength="40"
+  placeholder="Digite sua cidade"
+  list="Cidades">
+
+<datalist id="Cidades">
+  <option value="Janaúba"></option>
+  <option value="Porteirinha"></option>
+  <option value="Mato verde"></option>
+  <option value="Nova Porteirinha"></option>
+  <option value="Montes Claros"></option>
+  <option value="Montalvânia"></option>
+</datalist>
+</p>
+      </fieldset>
+      <p>e-mail</p>
+      <input type="e-mail"
+      name="te-mail"
+      id="ce-mail"
+      size="30"
+      maxlength="10"
+      placeholder="digite o e-mail ">
+      <p>Data de Nascimento</p>
+      <input type="date"
+      name="tDataNasc"
+      id="cDAtaNasc"
+      size="10"
+      maxlength="10"
+      placeholder="10 digitos">
+
+    </fieldset>
+<form>
+
+
+</form>
+  </body>
+</html>
